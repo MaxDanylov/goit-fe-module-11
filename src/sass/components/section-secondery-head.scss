@@ -1,0 +1,16 @@
+.secondery-head {
+  text-align: center;
+  font-family: $head;
+  font-weight: 700;
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  color: $primary-heading-color;
+}
+.secondery-head:after {
+  content: "";
+  display: block;
+  margin: 38px auto 0;
+  height: 3px;
+  width: 60px;
+  background-color: $decor-color;
+}
